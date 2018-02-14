@@ -1,0 +1,59 @@
+#if /if-else / elif
+
+if [ Expresión ] || [ Expresion2 ]; then
+	Acción
+fi
+
+if [ Expresion ] && [ Expresion2]; then
+	Accion
+else
+	Accion2
+fi
+
+if [ Expresion1 ]; then
+	Accion
+elif [ Expresion2 ]; then
+	Accion
+else
+	Accion
+fi
+
+#CASE
+
+case ETIQUETA in
+	valor1)
+		Accion1
+	;;
+	valor2)
+		accion2
+	;;
+	valor3)
+		accion3
+	;;
+	*)
+		accion
+esac
+
+#FOR
+
+for ETIQUETA in conjunto; do
+	Accion
+done
+
+#WHILE
+
+while [ Expresion ]; do
+	accion
+done
+
+
+
+
+
+
+
+
+
+
+
+
